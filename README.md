@@ -1,5 +1,4 @@
 # Cuento-Roc-o
-La historia de Rocío
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,7 +8,7 @@ La historia de Rocío
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         body {
-            font-family: 'Comic Sans MS', sans-serif;
+            font-family: 'Comic Sans MS', cursive;
             background-color: #f9f9f9;
         }
         .page {
@@ -45,7 +44,7 @@ La historia de Rocío
         <h1 class="text-3xl font-bold text-center mb-6">Cuento de Rocío</h1>
         <div id="book" class="book bg-white shadow-xl rounded-lg p-4">
             <div id="page1" class="page active">
-                <img src="image1.jpg" alt="Introducción: Rocío y sus amigos favoritos">
+                <img src="/attachments/6smVWWXLkfwkBgzMVewgB.jpeg" alt="Introducción: Rocío y sus amigos favoritos">
                 <p class="mt-4 text-lg">Había una vez una niña llamada Rocío. Era una niña muy curiosa y alegre, ¡y hoy estaba llena de emoción! Rocío tenía muchos amigos especiales. Entre ellos estaban los valientes perros de la Patrulla Canina, el juguetón perro Bluey y Bartolito el gallo, quien siempre la hacía reír con su "quiquiriquí".</p>
             </div>
             <div id="page2" class="page">
@@ -79,12 +78,4 @@ La historia de Rocío
         });
         
         document.getElementById('prev').addEventListener('click', () => {
-            if (currentPage > 0) {
-                pages[currentPage].classList.remove('active');
-                currentPage--;
-                pages[currentPage].classList.add('active');
-            }
-        });
-    </script>
-</body>
-</html>
+            if (current
